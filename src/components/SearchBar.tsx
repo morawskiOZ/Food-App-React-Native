@@ -1,7 +1,7 @@
-import React from "react"
-import { View, Text, StyleSheet } from "react-native"
-import { Feather } from "@expo/vector-icons"
-import { TextInput } from "react-native-gesture-handler"
+import { Feather } from '@expo/vector-icons'
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import { TextInput } from 'react-native-gesture-handler'
 
 interface Props {
   query: string
@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginHorizontal: 15,
     flexDirection: "row",
-    marginTop: 15
+    marginTop: 15,
+    marginBottom: 5
   },
   input: {
     flex: 1,
